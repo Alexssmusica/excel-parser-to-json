@@ -4,6 +4,7 @@
   "description": "Convert Excel to JSON",
   "homepage": "https://github.com/Alexssmusica/excel-parser-to-json/",
   "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "author": {
     "name": "Alexssmusica",
     "email": "alexssmusica@gmail.com",
