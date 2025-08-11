@@ -2,7 +2,7 @@
   "name": "excel-parser-to-json",
   "version": "1.0.0",
   "description": "Convert Excel to JSON",
-  "homepage": "https://github.com/Alexssmusica/excel-parser-to-json-parser/",
+  "homepage": "https://github.com/Alexssmusica/excel-parser-to-json/",
   "main": "./lib/index.js",
   "author": {
     "name": "Alexssmusica",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Alexssmusica/excel-parser-to-json-parser.git"
+    "url": "git://github.com/Alexssmusica/excel-parser-to-json.git"
   },
   "keywords": [
     "excel to json",
