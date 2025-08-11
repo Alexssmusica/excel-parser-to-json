@@ -1,0 +1,45 @@
+{
+  "name": "excel-parser-to-json",
+  "version": "1.0.0",
+  "description": "Convert Excel to JSON",
+  "homepage": "https://github.com/Alexssmusica/excel-parser-to-json-parser/",
+  "main": "./lib/index.js",
+  "author": {
+    "name": "Alexssmusica",
+    "email": "alexssmusica@gmail.com",
+    "url": "https://github.com/Alexssmusica/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Alexssmusica/excel-parser-to-json-parser.git"
+  },
+  "keywords": [
+    "excel to json",
+    "converts excel"
+  ],
+  "scripts": {
+    "build": "npm run clean:lib && tsc -p tsconfig-build.json",
+    "clean:lib": "rimraf lib/ && rimraf tsconfig-build.tsbuildinfo",
+    "release": "node release.js",
+    "test": "mocha ./tests -b"
+  },
+  "dependencies": {
+    "multiverse-xlsx": "^0.20.4",
+    "node.extend": "^2.0.3"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "13.0.1",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "11.0.4",
+    "@semantic-release/npm": "12.0.2",
+    "@semantic-release/release-notes-generator": "14.0.3",
+    "@tsconfig/node18": "^18.2.4",
+    "@types/node": "22.12.0",
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1",
+    "rimraf": "^6.0.1",
+    "typescript": "5.7.3"
+  }
+}
