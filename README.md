@@ -172,4 +172,3 @@ The library will throw an error if:
 ## Type Support
 
 The library is written in TypeScript and provides full type definitions for all configurations and outputs.
-
