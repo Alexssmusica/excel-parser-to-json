@@ -24,3 +24,4 @@ npm-debug.log*
 /tsconfig.buildinfo
 /tsconfig.buildinfo
 release.js
+CHANGELOG.md
