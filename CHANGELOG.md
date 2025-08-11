@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Alexssmusica/excel-parser-to-json/compare/v1.0.2...v1.0.3) (2025-08-11)
+
+
+### Bug Fixes
+
+* error typeof import ([e39a28c](https://github.com/Alexssmusica/excel-parser-to-json/commit/e39a28cb050675bebb7a35db4a25de9bfc55efe3))
+
 ## [1.0.2](https://github.com/Alexssmusica/excel-parser-to-json/compare/v1.0.1...v1.0.2) (2025-08-11)
 
 
