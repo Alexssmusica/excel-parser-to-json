@@ -1,6 +1,6 @@
 {
   "name": "excel-parser-to-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert Excel to JSON",
   "homepage": "https://github.com/Alexssmusica/excel-parser-to-json/",
   "main": "./lib/index.js",
